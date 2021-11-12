@@ -1,0 +1,65 @@
+@font-face {
+ font-family: kevin;
+ src: url('../fonts/charter-regular.otf');
+ font-style: normal;
+ font-weight: 400;
+}
+
+@font-face {
+ font-family: kevin-italic;
+ src: url('../fonts/charter-italic.otf');
+ font-style: italic;
+ font-weight: 400;
+}
+
+@font-face {
+ font-family: kevin-bold;
+ src: url('../fonts/charter-bold.otf');
+ font-style: normal;
+ font-weight: bold;
+}
+
+@font-face {
+ font-family: kevin-bold-italic;
+ src: url('../fonts/charter-bold-italic.otf');
+ font-style: italic;
+ font-weight: 400;
+}
+
+:root{
+ --colorcito: green;
+}
+
+body{
+ font-size: 16px;
+ font-family: kevin;
+
+}
+
+header{
+ font-family: kevin-bold-italic;
+ color: var(--colorcito);
+}
+
+h1{
+ font-size: 60px;
+}
+h2{
+ font-size: 2em;
+}
+h3{
+ font-size: 1.5em;
+}
+
+header a{
+ text-decoration: none;
+ color: var(--colorcito);
+}
+a:hover{
+ color: #212121;
+}
+
+nav details summary{
+ color: red;
+ font-weight: bold;
+}
